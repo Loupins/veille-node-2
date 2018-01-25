@@ -22,6 +22,10 @@ body nav ul {
   display: flex;
   justify-content: space-around;
 }
+body nav ul a {
+  text-decoration: none;
+  color: black;
+}
 body section {
   display: flex;
   width: 100%;
