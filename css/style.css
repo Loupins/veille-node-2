@@ -36,6 +36,8 @@ body section section {
   padding: 10px;
 }
 body footer {
+  text-align: center;
+  height: 25px;
   background: black;
   font-weight: bold;
   color: white;
