@@ -41,6 +41,10 @@ body section section {
   display: block;
   width: 80%;
   padding: 10px;
+  text-align: center;
+}
+body section section p {
+  text-align: left;
 }
 body section section img {
   width: 30vw;
