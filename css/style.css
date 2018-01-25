@@ -24,7 +24,6 @@ body nav ul {
 }
 body section {
   display: flex;
-  flex-direction: column;
   width: 100%;
 }
 body section aside {
@@ -32,6 +31,7 @@ body section aside {
   background: darkgray;
 }
 body section section {
+  display: block;
   width: 80%;
   padding: 10px;
 }
