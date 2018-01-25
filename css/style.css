@@ -35,6 +35,9 @@ body section section {
   width: 80%;
   padding: 10px;
 }
+body section section img {
+  width: 30vw;
+}
 body footer {
   text-align: center;
   height: 25px;
