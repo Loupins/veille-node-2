@@ -17,6 +17,9 @@ body header h2 {
   font-size: 18px;
   font-style: italic;
 }
+body nav {
+  border: 1px solid black;
+}
 body nav ul {
   list-style-type: none;
   display: flex;
@@ -44,6 +47,9 @@ body section section {
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
+}
+body section section h3 {
+  text-align: left;
 }
 body section section p {
   text-align: left;
