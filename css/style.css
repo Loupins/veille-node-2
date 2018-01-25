@@ -47,7 +47,7 @@ body section section img {
 }
 body footer {
   text-align: center;
-  height: 25px;
+  padding: 1px;
   background: black;
   font-weight: bold;
   color: white;
