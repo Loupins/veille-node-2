@@ -77,8 +77,10 @@ body section .global #images {
   justify-content: space-around;
 }
 body section .global #images img {
-  width: 33%;
-  height: 200px;
+  border: 2px solid white;
+  width: 45%;
+  margin-bottom: 10px;
+  height: 300px;
 }
 body footer {
   text-align: center;
