@@ -5,16 +5,22 @@ body {
   text-decoration: none;
 }
 body header {
-  background: #D3D3D3;
+  background: url('../img/background-entete.png');
+  background-size: cover;
   text-align: center;
   padding: 10px;
 }
-body header h1 {
-  font-weight: 700;
+body header .global {
+  width: 1100px;
+  margin: 0 auto;
 }
-body header h2 {
-  color: gray;
-  font-size: 18px;
+body header .global h1 {
+  font-weight: 700;
+  color: #4c924c;
+}
+body header .global h2 {
+  color: white;
+  font-size: 17px;
   font-style: italic;
 }
 body nav {
