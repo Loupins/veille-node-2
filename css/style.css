@@ -37,8 +37,11 @@ body nav .global ul {
   justify-content: space-around;
 }
 body nav .global ul li {
-  border: 1px solid green;
+  border-right: 1px solid green;
   width: 25%;
+}
+body nav .global ul li:first-child {
+  border-left: 1px solid green;
 }
 body nav .global ul li a {
   display: block;
