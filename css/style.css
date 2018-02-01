@@ -54,11 +54,7 @@ body section {
   display: flex;
   width: 100%;
 }
-body section aside {
-  width: 10%;
-  background: darkgray;
-}
-body section section {
+body section .global {
   display: block;
   width: 80%;
   padding: 10px;
@@ -66,13 +62,13 @@ body section section {
   padding-right: 15px;
   text-align: center;
 }
-body section section h3 {
+body section .global h3 {
   text-align: left;
 }
-body section section p {
+body section .global p {
   text-align: left;
 }
-body section section img {
+body section .global img {
   width: 30vw;
 }
 body footer {
