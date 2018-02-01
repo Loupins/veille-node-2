@@ -53,8 +53,6 @@ body {
 	}
 
 	section {
-		display: flex;
-		width: 100%;
 		.global {
 			display: block;
 			width: 1100px;
@@ -69,8 +67,14 @@ body {
 			p {
 				text-align: left;
 			}
-			img {
-				width: 30vw;
+			#images {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				img {
+					width: 33%;
+					height: 200px;
+				}
 			}
 		}
 	}

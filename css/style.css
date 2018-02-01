@@ -50,10 +50,6 @@ body nav .global ul li a {
 body nav .global ul li a:hover {
   text-decoration: underline;
 }
-body section {
-  display: flex;
-  width: 100%;
-}
 body section .global {
   display: block;
   width: 1100px;
@@ -69,8 +65,14 @@ body section .global h3 {
 body section .global p {
   text-align: left;
 }
-body section .global img {
-  width: 30vw;
+body section .global #images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body section .global #images img {
+  width: 33%;
+  height: 200px;
 }
 body footer {
   text-align: center;
