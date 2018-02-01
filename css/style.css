@@ -9,36 +9,45 @@ body header {
   background-size: cover;
   padding: 10px;
 }
-body header #global {
+body header .global {
   width: 1100px;
   margin: 0 auto;
 }
-body header #global h1 {
+body header .global h1 {
   font-weight: 700;
   color: #4c924c;
 }
-body header #global h2 {
+body header .global h2 {
   color: white;
   font-size: 17px;
   font-style: italic;
 }
 body nav {
-  border: 1px solid black;
+  background-color: #4c924c;
 }
-body nav #global {
+body nav .global {
   width: 1100px;
   margin: 0 auto;
 }
-body nav #global ul {
+body nav .global ul {
   list-style-type: none;
   display: flex;
+  margin: 0;
+  padding: 0;
   justify-content: space-around;
 }
-body nav #global ul a {
-  text-decoration: none;
-  color: black;
+body nav .global ul li {
+  border: 1px solid green;
+  width: 25%;
 }
-body nav #global ul a:hover {
+body nav .global ul li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+body nav .global ul li a:hover {
   text-decoration: underline;
 }
 body section {
