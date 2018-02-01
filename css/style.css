@@ -86,6 +86,7 @@ body section .global #images {
   justify-content: center;
 }
 body section .global #images div {
+  border: 1px solid white;
   width: 22%;
   margin: 10px;
   background-color: black;
