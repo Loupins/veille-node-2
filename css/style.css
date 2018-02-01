@@ -50,6 +50,9 @@ body nav .global ul li a {
 body nav .global ul li a:hover {
   text-decoration: underline;
 }
+body section {
+  background-color: #4d4d4d;
+}
 body section .global {
   display: block;
   width: 1100px;
@@ -61,12 +64,15 @@ body section .global {
 }
 body section .global h3 {
   text-align: left;
+  color: #4c924c;
 }
 body section .global p {
   text-align: left;
+  color: white;
 }
 body section .global #images {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
 }
