@@ -25,16 +25,20 @@ body header #global h2 {
 body nav {
   border: 1px solid black;
 }
-body nav ul {
+body nav #global {
+  width: 1100px;
+  margin: 0 auto;
+}
+body nav #global ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
 }
-body nav ul a {
+body nav #global ul a {
   text-decoration: none;
   color: black;
 }
-body nav ul a:hover {
+body nav #global ul a:hover {
   text-decoration: underline;
 }
 body section {
